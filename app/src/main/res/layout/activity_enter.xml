@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:layout_marginTop="150dp"
+    tools:context=".EnterActivity">
+
+    <!--房间码-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/house_number"
+        android:textSize="30sp"
+        >
+    </TextView>
+
+    <!--进入房间-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        >
+        <!--请输入房间码-->
+        <EditText
+            android:id="@+id/enter_housenumber"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:hint="@string/house_number_hint"
+            android:textSize="20sp"
+            >
+        </EditText>
+
+        <!--进入-->
+        <Button
+            android:id="@+id/enter_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter" />
+
+    </LinearLayout>
+
+    <!--创建房间-->
+    <TextView
+        android:id="@+id/enter_createhouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/create_house"
+        android:textSize="20sp"
+        >
+    </TextView>
+
+</LinearLayout>

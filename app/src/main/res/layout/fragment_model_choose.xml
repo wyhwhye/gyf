@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".modelChoose">
+
+    <GridLayout
+        android:id="@+id/model_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="2"
+        android:background="@drawable/model_choose"
+        >
+        <!--简单模式-->
+        <Button
+            android:id="@+id/model_btn_easy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/easy_model"
+            android:textSize="28sp"
+            />
+
+        <!--困难模式-->
+        <Button
+            android:id="@+id/model_btn_hard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/hard_model"
+            android:textSize="28sp"
+            />
+
+        <!--编号模式-->
+        <Button
+            android:id="@+id/model_btn_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/number_model"
+            android:textSize="28sp"
+            />
+
+        <!--等待解锁-->
+        <Button
+            android:id="@+id/model_btn_waitforunlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:text="@string/waitforunlock"
+            android:textSize="28sp"
+            />
+
+        <!--查看游戏规则-->
+        <TextView
+            android:id="@+id/model_rules"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/check_rule"
+            android:textSize="20sp"
+            />
+
+    </GridLayout>
+
+</LinearLayout>

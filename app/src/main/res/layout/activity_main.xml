@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:alpha="0.7"
+    tools:context=".MainActivity">
+
+    <!--标题1-->
+    <TextView
+        android:id="@+id/begin_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/begin_title1"
+        android:textSize="60sp"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        >
+    </TextView>
+    <!--标题2-->
+    <TextView
+        android:id="@+id/begin_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/begin_title1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/begin_title2"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        >
+    </TextView>
+
+    <!--登录-->
+    <TextView
+        android:id="@+id/begin_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/login"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        >
+    </TextView>
+
+    <!--注册-->
+    <TextView
+        android:id="@+id/begin_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/register"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        >
+    </TextView>
+
+    <!--占位符-->
+    <FrameLayout
+        android:id="@+id/begin_placrholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_model_choose"-->
+<!--        android:name="com.example.gyf.modelChoose"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+
+<!--        >-->
+
+<!--    </fragment>-->
+
+    <!--开始按钮-->
+    <Button
+        android:id="@+id/begin_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/begin_placrholder"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/begin_btn"
+        android:text="@string/begin"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        >
+    </Button>
+
+</RelativeLayout>

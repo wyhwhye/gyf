@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">gyf</string>
+
+    <string name="begin">开始</string>
+    <string name="begin_title1">共享位置</string>
+    <string name="begin_title2">捉迷藏</string>
+
+    <string name="account">账号：</string>
+    <string name="account_aline">账&#12288;&#12288;号：</string>
+    <string name="password">密码：</string>
+    <string name="password_aline">密&#12288;&#12288;码：</string>
+    <string name="account_hint">请输入用户名或手机号</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="register_hint">还没有账号？</string>
+    <string name="confirmpassword">确认密码：</string>
+    <string name="confirmpassword_hint">请再次输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+
+
+    <string name="check_rule">查看游戏规则</string>
+    <string name="waitforunlock">等待解锁</string>
+    <string name="number_model">编号模式</string>
+    <string name="hard_model">困难模式</string>
+    <string name="easy_model">简单模式</string>
+
+
+
+    <string name="house_number">房间号：</string>
+    <string name="house_number_hint">请输入房间号</string>
+    <string name="enter">进入</string>
+    <string name="create_house">创建新房间</string>
+
+
+    <string name="waiting_house_number">房间号：12345678</string>
+    <string name="start_game">开始游戏</string>
+    <string-array name="players">
+        <item >玩家1</item>
+        <item >玩家2</item>
+        <item >玩家3</item>
+        <item >玩家4</item>
+        <item >玩家5</item>
+        <item >玩家6</item>
+        <item >玩家7</item>
+        <item >玩家8</item>
+        <item >玩家9</item>
+        <item >玩家10</item>
+        <item >玩家11</item>
+        <item >玩家12</item>
+        <item >玩家13</item>
+    </string-array>
+
+
+    <string name="gameover">游戏结束</string>
+    <string name="ending">
+        你抓了%1$d个人\n
+        第%2$d个被抓\n
+        你共跑过%3$.2f公里\n
+        在%4$d人中排名第%5$d
+    </string>
+    <string name="overview">点击回看全程</string>
+
+
+</resources>
